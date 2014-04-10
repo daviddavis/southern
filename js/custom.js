@@ -41,6 +41,7 @@ $('#filters a').click(function(){
       easing: "easeInOutSine",
       directionNav: false,
       animationSpeed: 1500,
+      useCSS: false,
       slideshowSpeed: 5000
     });
   });

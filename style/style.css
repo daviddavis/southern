@@ -7,7 +7,7 @@ body{
 	font-size: 15px;
 	line-height: 25px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -15,10 +15,12 @@ h1,h2,h3,h4,h5,h6{
 	margin: 2px 0px 5px 0px;
 	padding: 2px 0px;
 	color: #666;
+  font-family: Lato, sans-serif !important;
 }
 
 h1,h2{
-	font-weight: 300 !important;
+	font-weight: 100 !important;
+  font-family: Lato, sans-serif !important;
 }
 
 h3,h4,h5,h6{
@@ -100,7 +102,7 @@ hr{
 
 .big{
 	font-size: 20px !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Lato, sans-serif;
 	margin-bottom: 10px;
 	font-weight: 300;
 }
@@ -390,10 +392,11 @@ header{
 
 header .logo{
 	padding: 15px 0px;
+  font-family: Lato, sans-serif !important;
 }
 
 header .logo h1{
-	font-size: 40px;
+	font-size: 42px;
 	line-height: 45px;
 	margin-bottom: 5px;
 }
@@ -401,6 +404,7 @@ header .logo h1{
 header .logo h1 a, header .logo h1 a:visited, header .logo h1 a:hover{
 	color: #666;
 	text-decoration: none;
+  font-weight: 100;
 }
 
 header .logo .hmeta{
@@ -1405,6 +1409,10 @@ left: 5px !important;
 
 .flex-caption h2, .flex-caption h5, .flex-caption h6{
 	color: #fff;
+}
+
+.flex-caption h2, .flex-caption h5 {
+  font-weight: 100 !important;
 }
 
 .flex-caption p{
